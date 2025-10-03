@@ -120,13 +120,7 @@ body{
     color: #2e2f42;
     display: block;
     padding: 24px 0 24px;
-}
-
-.menu-nav-link:hover,
-.menu-nav-link:focus,
-.contacts-list-link:hover,
-.contacts-list-link:focus {
-    color: #404bbf;
+    transition: color 250ms linear;
 }
 
 .menu-nav-item:first-child:active::after{
@@ -161,6 +155,14 @@ body{
     display: block;
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    transition: color 250ms linear;
+}
+
+.menu-nav-link:hover,
+.menu-nav-link:focus,
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+    color: #404bbf;
 }
 
 /*===========/PAGE HEADER STYLE==============*/
@@ -213,6 +215,7 @@ body{
         height: 56px;
         border: none;
         background: #4d5ae5;
+        transition: background-color 250ms linear;
 }
 
 .hero-section-button:hover,
@@ -386,6 +389,37 @@ body{
     row-gap: 48px;
 }
 
+.portfolio-item-overlay-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item-overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    transform: translateY(100%);
+    background-color: #4d5ae5;
+    padding-left: 32px;
+    padding-top: 40px;
+    padding-right: 32px;
+    transition: transform 250ms linear;
+}
+
+.portfolio-list-item:hover .portfolio-item-overlay{
+    transform: translateY(0%);
+}
+.portfolio-item-overlay-discription{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
 
     .portfolio-list-item-wrapper{
     padding: 32px 16px;
@@ -475,8 +509,11 @@ body{
     height: 40px;
     border-radius: 50%;
     background-color: #404bbf;
-
+    transition: background-color 250ms linear;
 }
 
+.footer-list-social-item-link:hover {
+    background-color: #31d0aa;
+}
 
 /*===========FOOTER SECTION STYLE==============*/
