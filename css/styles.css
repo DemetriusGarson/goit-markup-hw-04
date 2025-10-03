@@ -231,6 +231,26 @@ body{
         align-items: center;  
 }
 
+.benefits-list-icons{
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-list-icons-item{
+    width: calc((100% - 72px) / 4);
+    text-align: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+}
+
+.benefits-icon{
+    margin: 24px 0;
+}
+
 .benefits-list{
     display: flex;
     gap: 24px;
