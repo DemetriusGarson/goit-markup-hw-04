@@ -355,9 +355,6 @@ body{
     
 }
 
-.team-list-socail-item-icon{
-
-}
 /*===========/TEAM SECTION STYLE==============*/
 
 /*===========PORTFOLIO SECTION STYLE==============*/
@@ -463,5 +460,23 @@ body{
         letter-spacing: 0.02em;
         color: #fff;
 }
+.footer-list-social {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list-social-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #404bbf;
+
+}
+
 
 /*===========FOOTER SECTION STYLE==============*/
