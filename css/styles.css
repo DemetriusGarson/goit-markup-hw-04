@@ -129,6 +129,17 @@ body{
     color: #404bbf;
 }
 
+.menu-nav-item:first-child:active::after{
+    content:'';
+    display: block;
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    line-height: 0px;
+    background-color: #404bbf;
+    position: absolute;
+}
+
 .page-address {
     font-style: normal;
 }
