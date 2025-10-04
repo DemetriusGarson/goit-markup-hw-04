@@ -139,7 +139,7 @@ body{
 }
 
 
- .menu-nav .menu-nav-item:first-child:active::after {
+ .menu-nav .menu-nav-item::after  {
 content: '';
     width: 100%;
     position: absolute;
