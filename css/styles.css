@@ -142,7 +142,7 @@ body{
 color: #404bbf;
 } */
 
-#studio-link:active::after{
+ .menu-nav .menu-nav-item:first-child:active .menu-nav-link::after {
 content: '';
     width: 100%;
     position: absolute;
