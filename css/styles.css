@@ -255,24 +255,19 @@ content: '';
         align-items: center;  
 }
 
-.benefits-list-icons{
+/* .benefits-list-icons{
     display: flex;
     gap: 24px;
-}
+} */
 
-.benefits-list-icons-item{
+/* .benefits-list-icons-item{
     width: calc((100% - 72px) / 4);
-    text-align: center;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background: #f4f4fd;
-    width: 264px;
-    height: 112px;
-    margin-bottom: 8px;
-}
+
+} */
 
 .benefits-icon{
     margin: 24px 0;
+    text-align: center;
 }
 
 .benefits-list{
@@ -282,6 +277,13 @@ content: '';
 
 .benefits-list-item{
     width: calc((100% - 72px) / 4);
+            border: 1px solid #8e8f99;
+            border-radius: 4px;
+            background: #f4f4fd;
+            width: 264px;
+            height: 112px;
+            margin-bottom: 8px;
+            text-align: center;
 }
 
 .benefits-item-heading{
@@ -289,6 +291,7 @@ content: '';
         line-height: 1.2;
         margin-bottom: 8px;
         color: #2e2f42;
+        text-align: left;
 }
 .benefits-item-description{
         font-family: "Roboto", sans-serif;
@@ -297,6 +300,7 @@ content: '';
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: left;
 }
 
 /*===========/BENEFITS SECTION STYLE==============*/
