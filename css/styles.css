@@ -479,6 +479,12 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*===========FOOTER SECTION STYLE==============*/
 
+.footer-wrapper {
+    display: flex;
+    align-items: baseline;
+    /* column-gap:120px; */
+}
+
 .page-logo-footer{
     display: inline-block;
     margin-bottom: 16px;
@@ -506,10 +512,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 100px 0;
 }
 
-.footer-wrapper{
-    display:flex;
-    column-gap:120px;
-}
+
 
 .footer-social-wrapper{
     display :flex;
