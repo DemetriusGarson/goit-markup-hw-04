@@ -255,46 +255,14 @@ content: '';
         align-items: center;  
 }
 
-/* .benefits-list-icons{
-    display: flex;
-    gap: 24px;
-} */
-
-/* .benefits-list-icons-item{
-    width: calc((100% - 72px) / 4);
-
-} */
-
-/* .benefits-icon{
-    margin: 24px 0;
-    text-align: center;
-} */
-
 .benefits-list{
     display: flex;
     gap: 24px;
 }
 
-/* .benefits-list-item{
-    width: calc((100% - 72px) / 4);
-            border: 1px solid #8e8f99;
-            border-radius: 4px;
-            background: #f4f4fd;
-            width: 264px;
-            height: 112px;
-            margin-bottom: 8px;
-            text-align: center;
-} */
-
-/* .benefits-list-item-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
 .benefits-item-icon{
     display: flex;
-        /* width: 264px; */
+        width: 264px;
         height: 112px;
         background-color: #f4f4fd;
         border-radius: 4px;
